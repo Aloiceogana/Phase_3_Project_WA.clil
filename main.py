@@ -1,13 +1,10 @@
-# We import the necessary libraries (requests, argparse, chalk, and pyfiglet).
-# requests should be also installed, it's not a builtin library
 import requests
 import argparse
 import pyfiglet
 from simple_chalk import chalk
 
 
-#API Key for openWeatherMap
-API_KEY = 'your API Key'
+API_KEY = "1aba9d543fe17cc0936a0cbb0e58b08e"
 #Base URL for openWeatherMap API
 BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 
